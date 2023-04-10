@@ -1,0 +1,7 @@
+1- Change the genrator to change the price depend on the algorthim
+2- consume the stocks price in the actor and the acort follow the childs to take decision
+3- Auditer should update the stocks and create logs for buy and sell
+
+The algorthim will genrate the value on the green 3 peak and two red peak
+
+the price will genrated every one second
