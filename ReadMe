@@ -1,0 +1,9 @@
+create table Mywallet (id int not null AUTO_INCREMENT,stockName varchar(255) not null,count int not null,PRIMARY KEY(id));
+create table Settings (CKey varchar(255) NOT NULL,CValue varchar(255) NOT NULL);
+insert into Settings (CKey,CValue) values ("Budget","0");
+create table OpreationLog (id int not null AUTO_INCREMENT,StockName varchar(255) not null,type int not null,price double not null,PRIMARY KEY(id));
+
+
+####kafka
+kafka_2.13-3.4.0/bin/kafka-topics.sh  --bootstrap-server localhost:9092 --topic x --create --partitions 5 --replication-factor 1
+
